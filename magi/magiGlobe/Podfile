@@ -1,0 +1,45 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'magiGlobe' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for magiGlobe
+
+  # RxSwift 函数响应式编程
+  pod 'RxSwift',    '~> 3.0'
+  pod 'RxCocoa',    '~> 3.0'
+
+  # Alamofire 网络库 （4.1.0最低支持iOS8.0,4.0最低支持iOS9.0）
+  pod 'Alamofire'
+
+  # Moya 第三方框架封装网络层
+  pod 'Moya'
+
+  #AutoLayout 库
+  pod "SnapKit"
+
+  #网络图片库
+  pod "Kingfisher"
+
+  #数据持久化
+  pod 'SQLite.swift'
+
+  # swift编写的各种加密算法，如：MD5，SHA1 , :git => 'https://github.com/krzyzanowskim/CryptoSwift.git', :branch => 'swift3'
+  pod 'CryptoSwift'
+
+  # websocket库, :git => 'https://github.com/daltoniam/Starscream.git', :branch => 'swift3'
+  pod 'Starscream'
+
+  target 'magiGlobeTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'magiGlobeUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
