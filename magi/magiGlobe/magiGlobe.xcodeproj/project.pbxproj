@@ -78,6 +78,21 @@
 		3527BDB51EC9DAB300DE9191 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3527BDB31EC9DAB300DE9191 /* LaunchScreen.storyboard */; };
 		3527BDC01EC9DAB300DE9191 /* magiGlobeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3527BDBF1EC9DAB300DE9191 /* magiGlobeTests.swift */; };
 		3527BDCB1EC9DAB300DE9191 /* magiGlobeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3527BDCA1EC9DAB300DE9191 /* magiGlobeUITests.swift */; };
+		35F78A721ECC358200B0DFD8 /* SMMImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F78A551ECC358200B0DFD8 /* SMMImagePickerController.swift */; };
+		35F78A731ECC358200B0DFD8 /* NSBundle+TZImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F78A581ECC358200B0DFD8 /* NSBundle+TZImagePicker.m */; };
+		35F78A741ECC358200B0DFD8 /* TZAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F78A5A1ECC358200B0DFD8 /* TZAssetCell.m */; };
+		35F78A751ECC358200B0DFD8 /* TZAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F78A5C1ECC358200B0DFD8 /* TZAssetModel.m */; };
+		35F78A761ECC358200B0DFD8 /* TZGifPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F78A5E1ECC358200B0DFD8 /* TZGifPhotoPreviewController.m */; };
+		35F78A771ECC358200B0DFD8 /* TZImageCropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F78A601ECC358200B0DFD8 /* TZImageCropManager.m */; };
+		35F78A781ECC358200B0DFD8 /* TZImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F78A621ECC358200B0DFD8 /* TZImageManager.m */; };
+		35F78A791ECC358200B0DFD8 /* TZImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 35F78A631ECC358200B0DFD8 /* TZImagePickerController.bundle */; };
+		35F78A7A1ECC358200B0DFD8 /* TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F78A651ECC358200B0DFD8 /* TZImagePickerController.m */; };
+		35F78A7B1ECC358200B0DFD8 /* TZPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F78A671ECC358200B0DFD8 /* TZPhotoPickerController.m */; };
+		35F78A7C1ECC358200B0DFD8 /* TZPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F78A691ECC358200B0DFD8 /* TZPhotoPreviewCell.m */; };
+		35F78A7D1ECC358200B0DFD8 /* TZPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F78A6B1ECC358200B0DFD8 /* TZPhotoPreviewController.m */; };
+		35F78A7E1ECC358200B0DFD8 /* TZProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F78A6D1ECC358200B0DFD8 /* TZProgressView.m */; };
+		35F78A7F1ECC358200B0DFD8 /* TZVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F78A6F1ECC358200B0DFD8 /* TZVideoPlayerController.m */; };
+		35F78A801ECC358200B0DFD8 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F78A711ECC358200B0DFD8 /* UIView+Layout.m */; };
 		E457860AAE5CA26AD3B4F3F7 /* Pods_magiGlobeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E5B8F7F67397A313CAA419 /* Pods_magiGlobeTests.framework */; };
 		F9FEE5599F3E8914A69BD628 /* Pods_magiGlobeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7A50DA3776017ABEAE01F8 /* Pods_magiGlobeUITests.framework */; };
 /* End PBXBuildFile section */
@@ -176,6 +191,35 @@
 		3527BDC61EC9DAB300DE9191 /* magiGlobeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = magiGlobeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3527BDCA1EC9DAB300DE9191 /* magiGlobeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = magiGlobeUITests.swift; sourceTree = "<group>"; };
 		3527BDCC1EC9DAB300DE9191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35F78A551ECC358200B0DFD8 /* SMMImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMMImagePickerController.swift; sourceTree = "<group>"; };
+		35F78A571ECC358200B0DFD8 /* NSBundle+TZImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+TZImagePicker.h"; sourceTree = "<group>"; };
+		35F78A581ECC358200B0DFD8 /* NSBundle+TZImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+TZImagePicker.m"; sourceTree = "<group>"; };
+		35F78A591ECC358200B0DFD8 /* TZAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetCell.h; sourceTree = "<group>"; };
+		35F78A5A1ECC358200B0DFD8 /* TZAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetCell.m; sourceTree = "<group>"; };
+		35F78A5B1ECC358200B0DFD8 /* TZAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetModel.h; sourceTree = "<group>"; };
+		35F78A5C1ECC358200B0DFD8 /* TZAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetModel.m; sourceTree = "<group>"; };
+		35F78A5D1ECC358200B0DFD8 /* TZGifPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZGifPhotoPreviewController.h; sourceTree = "<group>"; };
+		35F78A5E1ECC358200B0DFD8 /* TZGifPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZGifPhotoPreviewController.m; sourceTree = "<group>"; };
+		35F78A5F1ECC358200B0DFD8 /* TZImageCropManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageCropManager.h; sourceTree = "<group>"; };
+		35F78A601ECC358200B0DFD8 /* TZImageCropManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageCropManager.m; sourceTree = "<group>"; };
+		35F78A611ECC358200B0DFD8 /* TZImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageManager.h; sourceTree = "<group>"; };
+		35F78A621ECC358200B0DFD8 /* TZImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageManager.m; sourceTree = "<group>"; };
+		35F78A631ECC358200B0DFD8 /* TZImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TZImagePickerController.bundle; sourceTree = "<group>"; };
+		35F78A641ECC358200B0DFD8 /* TZImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImagePickerController.h; sourceTree = "<group>"; };
+		35F78A651ECC358200B0DFD8 /* TZImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImagePickerController.m; sourceTree = "<group>"; };
+		35F78A661ECC358200B0DFD8 /* TZPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPickerController.h; sourceTree = "<group>"; };
+		35F78A671ECC358200B0DFD8 /* TZPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPickerController.m; sourceTree = "<group>"; };
+		35F78A681ECC358200B0DFD8 /* TZPhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewCell.h; sourceTree = "<group>"; };
+		35F78A691ECC358200B0DFD8 /* TZPhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewCell.m; sourceTree = "<group>"; };
+		35F78A6A1ECC358200B0DFD8 /* TZPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewController.h; sourceTree = "<group>"; };
+		35F78A6B1ECC358200B0DFD8 /* TZPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewController.m; sourceTree = "<group>"; };
+		35F78A6C1ECC358200B0DFD8 /* TZProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZProgressView.h; sourceTree = "<group>"; };
+		35F78A6D1ECC358200B0DFD8 /* TZProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZProgressView.m; sourceTree = "<group>"; };
+		35F78A6E1ECC358200B0DFD8 /* TZVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZVideoPlayerController.h; sourceTree = "<group>"; };
+		35F78A6F1ECC358200B0DFD8 /* TZVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZVideoPlayerController.m; sourceTree = "<group>"; };
+		35F78A701ECC358200B0DFD8 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		35F78A711ECC358200B0DFD8 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		35F78A891ECC364E00B0DFD8 /* magicGlobe-bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "magicGlobe-bridging-Header.h"; sourceTree = "<group>"; };
 		6E7A50DA3776017ABEAE01F8 /* Pods_magiGlobeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_magiGlobeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72E5B8F7F67397A313CAA419 /* Pods_magiGlobeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_magiGlobeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC0A382F047D730F5D70C73 /* Pods-magiGlobeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-magiGlobeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-magiGlobeUITests/Pods-magiGlobeUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -245,6 +289,8 @@
 		350C674B1ECAAF4E0010B8A8 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				35F78A541ECC358200B0DFD8 /* photoPickerView */,
+				35F78A561ECC358200B0DFD8 /* TZImagePickerController */,
 				350C67631ECAAFB40010B8A8 /* Extension */,
 			);
 			path = Tool;
@@ -873,6 +919,7 @@
 			children = (
 				350C67481ECAAF4E0010B8A8 /* Classes */,
 				3527BDA71EC9DAB300DE9191 /* AppDelegate.swift */,
+				35F78A891ECC364E00B0DFD8 /* magicGlobe-bridging-Header.h */,
 				3527BDB11EC9DAB300DE9191 /* Assets.xcassets */,
 				3527BDB31EC9DAB300DE9191 /* LaunchScreen.storyboard */,
 				3527BDB61EC9DAB300DE9191 /* Info.plist */,
@@ -897,6 +944,48 @@
 				3527BDCC1EC9DAB300DE9191 /* Info.plist */,
 			);
 			path = magiGlobeUITests;
+			sourceTree = "<group>";
+		};
+		35F78A541ECC358200B0DFD8 /* photoPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				35F78A551ECC358200B0DFD8 /* SMMImagePickerController.swift */,
+			);
+			path = photoPickerView;
+			sourceTree = "<group>";
+		};
+		35F78A561ECC358200B0DFD8 /* TZImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				35F78A571ECC358200B0DFD8 /* NSBundle+TZImagePicker.h */,
+				35F78A581ECC358200B0DFD8 /* NSBundle+TZImagePicker.m */,
+				35F78A591ECC358200B0DFD8 /* TZAssetCell.h */,
+				35F78A5A1ECC358200B0DFD8 /* TZAssetCell.m */,
+				35F78A5B1ECC358200B0DFD8 /* TZAssetModel.h */,
+				35F78A5C1ECC358200B0DFD8 /* TZAssetModel.m */,
+				35F78A5D1ECC358200B0DFD8 /* TZGifPhotoPreviewController.h */,
+				35F78A5E1ECC358200B0DFD8 /* TZGifPhotoPreviewController.m */,
+				35F78A5F1ECC358200B0DFD8 /* TZImageCropManager.h */,
+				35F78A601ECC358200B0DFD8 /* TZImageCropManager.m */,
+				35F78A611ECC358200B0DFD8 /* TZImageManager.h */,
+				35F78A621ECC358200B0DFD8 /* TZImageManager.m */,
+				35F78A631ECC358200B0DFD8 /* TZImagePickerController.bundle */,
+				35F78A641ECC358200B0DFD8 /* TZImagePickerController.h */,
+				35F78A651ECC358200B0DFD8 /* TZImagePickerController.m */,
+				35F78A661ECC358200B0DFD8 /* TZPhotoPickerController.h */,
+				35F78A671ECC358200B0DFD8 /* TZPhotoPickerController.m */,
+				35F78A681ECC358200B0DFD8 /* TZPhotoPreviewCell.h */,
+				35F78A691ECC358200B0DFD8 /* TZPhotoPreviewCell.m */,
+				35F78A6A1ECC358200B0DFD8 /* TZPhotoPreviewController.h */,
+				35F78A6B1ECC358200B0DFD8 /* TZPhotoPreviewController.m */,
+				35F78A6C1ECC358200B0DFD8 /* TZProgressView.h */,
+				35F78A6D1ECC358200B0DFD8 /* TZProgressView.m */,
+				35F78A6E1ECC358200B0DFD8 /* TZVideoPlayerController.h */,
+				35F78A6F1ECC358200B0DFD8 /* TZVideoPlayerController.m */,
+				35F78A701ECC358200B0DFD8 /* UIView+Layout.h */,
+				35F78A711ECC358200B0DFD8 /* UIView+Layout.m */,
+			);
+			path = TZImagePickerController;
 			sourceTree = "<group>";
 		};
 		BCFF3DA392DB239C12A8321A /* Pods */ = {
@@ -1041,6 +1130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F78A791ECC358200B0DFD8 /* TZImagePickerController.bundle in Resources */,
 				3527BDB51EC9DAB300DE9191 /* LaunchScreen.storyboard in Resources */,
 				3527BDB21EC9DAB300DE9191 /* Assets.xcassets in Resources */,
 			);
@@ -1210,8 +1300,10 @@
 				350C68061ECAC9300010B8A8 /* ARAHomeViewController.swift in Sources */,
 				350C67FA1ECAAFB40010B8A8 /* UIWindow+Man.swift in Sources */,
 				350C67EC1ECAAFB40010B8A8 /* UISearchBar+Man.swift in Sources */,
+				35F78A7F1ECC358200B0DFD8 /* TZVideoPlayerController.m in Sources */,
 				350C67E41ECAAFB40010B8A8 /* UIDevice+Man.swift in Sources */,
 				350C67F91ECAAFB40010B8A8 /* UIViewController+NavigationBar.swift in Sources */,
+				35F78A721ECC358200B0DFD8 /* SMMImagePickerController.swift in Sources */,
 				350C67E51ECAAFB40010B8A8 /* UIImage+Man.swift in Sources */,
 				350C67CB1ECAAFB40010B8A8 /* Data+Man.swift in Sources */,
 				350C67F61ECAAFB40010B8A8 /* UIView+Rect.swift in Sources */,
@@ -1219,20 +1311,26 @@
 				350C68031ECAB0640010B8A8 /* ARABaseNavigationController.swift in Sources */,
 				350C680F1ECAC9F50010B8A8 /* ARADiscoverViewController.swift in Sources */,
 				350C67F41ECAAFB40010B8A8 /* UIView+Find.swift in Sources */,
+				35F78A771ECC358200B0DFD8 /* TZImageCropManager.m in Sources */,
 				350C67CE1ECAAFB40010B8A8 /* NotificationCenter+Man.swift in Sources */,
 				350C67D61ECAAFB40010B8A8 /* Timer+Block.swift in Sources */,
+				35F78A741ECC358200B0DFD8 /* TZAssetCell.m in Sources */,
 				350C68091ECAC93D0010B8A8 /* ARAMessageViewController.swift in Sources */,
 				350C67C71ECAAFB40010B8A8 /* AVPlayerItem+Man.swift in Sources */,
 				350C68021ECAB0640010B8A8 /* ARATabBarController.swift in Sources */,
+				35F78A7D1ECC358200B0DFD8 /* TZPhotoPreviewController.m in Sources */,
 				350C68071ECAC9300010B8A8 /* ARAAppInfosViewController.swift in Sources */,
 				350C67C61ECAAFB40010B8A8 /* AVPlayer+Man.swift in Sources */,
 				350C67F71ECAAFB40010B8A8 /* UIViewController+Find.swift in Sources */,
 				350C680B1ECAC94C0010B8A8 /* ARAProfileViewController.swift in Sources */,
+				35F78A801ECC358200B0DFD8 /* UIView+Layout.m in Sources */,
+				35F78A731ECC358200B0DFD8 /* NSBundle+TZImagePicker.m in Sources */,
 				350C67E11ECAAFB40010B8A8 /* UIButton+Man.swift in Sources */,
 				350C67C91ECAAFB40010B8A8 /* Bundle+AppIcon.swift in Sources */,
 				350C67E61ECAAFB40010B8A8 /* UIImageView+Man.swift in Sources */,
 				350C67F11ECAAFB40010B8A8 /* UITextField+Man.swift in Sources */,
 				350C67EE1ECAAFB40010B8A8 /* UITabBar+Man.swift in Sources */,
+				35F78A761ECC358200B0DFD8 /* TZGifPhotoPreviewController.m in Sources */,
 				350C67CA1ECAAFB40010B8A8 /* Bundle+Man.swift in Sources */,
 				350C67DF1ECAAFB40010B8A8 /* UIApplication+Man.swift in Sources */,
 				350C680D1ECAC9650010B8A8 /* ARALabel.swift in Sources */,
@@ -1246,6 +1344,7 @@
 				350C67F81ECAAFB40010B8A8 /* UIViewController+Man.swift in Sources */,
 				350C67D91ECAAFB40010B8A8 /* URLSession+SynchronousTask.swift in Sources */,
 				350C67D41ECAAFB40010B8A8 /* String+URL.swift in Sources */,
+				35F78A7E1ECC358200B0DFD8 /* TZProgressView.m in Sources */,
 				350C67F01ECAAFB40010B8A8 /* UITableViewCell+Man.swift in Sources */,
 				350C67D51ECAAFB40010B8A8 /* Timer+Addition.swift in Sources */,
 				350C67DD1ECAAFB40010B8A8 /* Int+Man.swift in Sources */,
@@ -1254,15 +1353,20 @@
 				350C67D81ECAAFB40010B8A8 /* URLSession+Man.swift in Sources */,
 				350C67C51ECAAFB40010B8A8 /* AVAsset+Man.swift in Sources */,
 				350C67D11ECAAFB40010B8A8 /* String+Format.swift in Sources */,
+				35F78A751ECC358200B0DFD8 /* TZAssetModel.m in Sources */,
 				350C67DB1ECAAFB40010B8A8 /* Bool+Man.swift in Sources */,
 				350C67FF1ECAB05E0010B8A8 /* ARAMainTabBar.swift in Sources */,
+				35F78A7C1ECC358200B0DFD8 /* TZPhotoPreviewCell.m in Sources */,
 				350C67CF1ECAAFB40010B8A8 /* NSNull+Man.swift in Sources */,
 				350C67CC1ECAAFB40010B8A8 /* Date+Comparable.swift in Sources */,
 				3527BDB01EC9DAB300DE9191 /* magiGlobe.xcdatamodeld in Sources */,
+				35F78A7B1ECC358200B0DFD8 /* TZPhotoPickerController.m in Sources */,
 				350C67E81ECAAFB40010B8A8 /* UINavigationBar+Man.swift in Sources */,
+				35F78A7A1ECC358200B0DFD8 /* TZImagePickerController.m in Sources */,
 				350C67ED1ECAAFB40010B8A8 /* UISlider+Man.swift in Sources */,
 				350C67DE1ECAAFB40010B8A8 /* UIAlertController+Man.swift in Sources */,
 				350C67EF1ECAAFB40010B8A8 /* UITableView+Man.swift in Sources */,
+				35F78A781ECC358200B0DFD8 /* TZImageManager.m in Sources */,
 				350C67D31ECAAFB40010B8A8 /* String+Man.swift in Sources */,
 				350C67F51ECAAFB40010B8A8 /* UIView+Man.swift in Sources */,
 				350C67E71ECAAFB40010B8A8 /* UILable+Man.swift in Sources */,
@@ -1363,6 +1467,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/anran/Desktop/AnRanLocationLibrary/magiGlobe/magi/magiGlobe/magiGlobe/magicGlobe-bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1406,6 +1511,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/anran/Desktop/AnRanLocationLibrary/magiGlobe/magi/magiGlobe/magiGlobe/magicGlobe-bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

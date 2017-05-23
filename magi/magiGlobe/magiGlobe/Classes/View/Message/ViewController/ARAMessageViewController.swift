@@ -8,7 +8,9 @@
 
 import UIKit
 
-class ARAMessageViewController: UIViewController {
+class ARAMessageViewController: UIViewController, TZImagePickerControllerDelegate {
+    
+    // MARK: - 控件
     
     lazy var searchBar: UISearchBar = {
         let search = UISearchBar()
@@ -17,6 +19,26 @@ class ARAMessageViewController: UIViewController {
         search.delegate = self
         return search
     }()
+    
+    lazy var actionButton:UIButton = { [weak self] in
+        let btn = UIButton()
+        btn.addTarget(self,
+                      action: #selector(ARAMessageViewController.persentPhotoPickerView),
+                      for: .touchUpInside)
+        btn.setTitle("相册选择图片",
+                     for: .normal)
+        btn.setTitleColor(UIColor.red,
+                          for: .normal)
+        btn.sizeToFit()
+        return btn
+    }()
+    
+    
+    // MARK: - 属性
+    
+    var selectedPhotos: [UIImage]?
+    
+    var selectedAssets: [Any]?
     
     // MARK: - System function
 
@@ -34,15 +56,34 @@ class ARAMessageViewController: UIViewController {
     // MARK: - Definite function
     
     func setupUI() {
-        let slider = UISlider(frame: CGRect(x: 0, y: 400, width: 300, height: 20))
-        view.addSubview(slider)
+        view.addSubview(actionButton)
+        actionButton.m_alignCenter()
     }
     
     func setupNav() {
         navigationItem.titleView = searchBar
     }
     
-    /// 收回键盘
+    @objc private func persentPhotoPickerView() {
+        let pickerView = SMMImagePickerController(maxImagesCount: 9,
+                                                  columnNumber: 4,
+                                                  delegate: self,
+                                                  pushPhotoPickerVc: true)
+        pickerView.didFinishShowPhotosHandle { (photos, assets, isSelectOriginalPhoto) in
+            if let array1 = photos,
+                let array2 = assets {
+                self.selectedPhotos = array1
+                self.selectedAssets = array2
+                print("self.selectedPhotos-------\(String(describing: self.selectedPhotos?.count))")
+                print("self.selectedAssets-------\(String(describing: self.selectedAssets?.count))")
+            }
+        }
+        navigationController?.present(pickerView,
+                                      animated: true,
+                                      completion: nil)
+    }
+    
+    // 收回键盘
     func viewTapped() {
         view.endEditing(true)
     }
@@ -57,3 +98,4 @@ extension ARAMessageViewController: UISearchBarDelegate {
     }
     
 }
+
