@@ -14,6 +14,7 @@ class SMMImagePickerController: TZImagePickerController {
     
     var alwaysEnableDoneButton: Bool = false
     
+    
     var allowShowVideo: Bool = true
     
     var allowShowGif: Bool = true
@@ -23,18 +24,20 @@ class SMMImagePickerController: TZImagePickerController {
     var pictureWidth: CGFloat = 828
     
     var picturePreviewMaxWidth: CGFloat = 600
-    
-    // var didFinishShowPhotosHandle: ((_ photos: [UIImage]?, _ assets: [Any]?, _ isSelectOriginalPhoto: Bool)->Void)?
-    
+
     // MARK: - 系统方法
     
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+    override init(nibName nibNameOrNil: String?,
+                  bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil,
                    bundle: nibBundleOrNil)
     }
 
     // 照片选择初始化
-    override init(maxImagesCount: Int, columnNumber: Int, delegate: TZImagePickerControllerDelegate!, pushPhotoPickerVc: Bool) {
+    override init(maxImagesCount: Int,
+                  columnNumber: Int,
+                  delegate: TZImagePickerControllerDelegate!,
+                  pushPhotoPickerVc: Bool) {
         super.init(maxImagesCount: maxImagesCount,
                    columnNumber: columnNumber,
                    delegate: delegate,
@@ -42,10 +45,12 @@ class SMMImagePickerController: TZImagePickerController {
     }
     
     // 照片浏览初始化
-    override init(selectedAssets: NSMutableArray!, selectedPhotos: NSMutableArray!, index: Int) {
+    override init(selectedAssets: NSMutableArray!,
+                  selectedPhotos: NSMutableArray!,
+                  index: Int) {
         super.init(selectedAssets: selectedAssets,
-                                selectedPhotos: selectedPhotos,
-                                index: index)
+                   selectedPhotos: selectedPhotos,
+                   index: index)
     }
     
     required init?(coder aDecoder: NSCoder) {
