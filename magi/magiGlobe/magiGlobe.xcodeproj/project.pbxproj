@@ -73,11 +73,11 @@
 		350C680F1ECAC9F50010B8A8 /* ARADiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C680E1ECAC9F50010B8A8 /* ARADiscoverViewController.swift */; };
 		350C68111ECACA960010B8A8 /* AppInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C68101ECACA960010B8A8 /* AppInfos.swift */; };
 		3527BDA81EC9DAB300DE9191 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3527BDA71EC9DAB300DE9191 /* AppDelegate.swift */; };
-		3527BDB01EC9DAB300DE9191 /* magiGlobe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3527BDAE1EC9DAB300DE9191 /* magiGlobe.xcdatamodeld */; };
-		3527BDB21EC9DAB300DE9191 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3527BDB11EC9DAB300DE9191 /* Assets.xcassets */; };
-		3527BDB51EC9DAB300DE9191 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3527BDB31EC9DAB300DE9191 /* LaunchScreen.storyboard */; };
 		3527BDC01EC9DAB300DE9191 /* magiGlobeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3527BDBF1EC9DAB300DE9191 /* magiGlobeTests.swift */; };
 		3527BDCB1EC9DAB300DE9191 /* magiGlobeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3527BDCA1EC9DAB300DE9191 /* magiGlobeUITests.swift */; };
+		35F4D9AE1ED92ECC00155551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F4D9A81ED92ECC00155551 /* Assets.xcassets */; };
+		35F4D9AF1ED92ECC00155551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F4D9A91ED92ECC00155551 /* LaunchScreen.storyboard */; };
+		35F4D9B31ED9426B00155551 /* DB_User.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35F4D9B11ED9426A00155551 /* DB_User.xcdatamodeld */; };
 		35F78A721ECC358200B0DFD8 /* SMMImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F78A551ECC358200B0DFD8 /* SMMImagePickerController.swift */; };
 		35F78A731ECC358200B0DFD8 /* NSBundle+TZImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F78A581ECC358200B0DFD8 /* NSBundle+TZImagePicker.m */; };
 		35F78A741ECC358200B0DFD8 /* TZAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F78A5A1ECC358200B0DFD8 /* TZAssetCell.m */; };
@@ -181,9 +181,6 @@
 		350C68101ECACA960010B8A8 /* AppInfos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInfos.swift; sourceTree = "<group>"; };
 		3527BDA41EC9DAB300DE9191 /* magiGlobe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = magiGlobe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3527BDA71EC9DAB300DE9191 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3527BDAF1EC9DAB300DE9191 /* magiGlobe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = magiGlobe.xcdatamodel; sourceTree = "<group>"; };
-		3527BDB11EC9DAB300DE9191 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3527BDB41EC9DAB300DE9191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3527BDB61EC9DAB300DE9191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3527BDBB1EC9DAB300DE9191 /* magiGlobeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = magiGlobeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3527BDBF1EC9DAB300DE9191 /* magiGlobeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = magiGlobeTests.swift; sourceTree = "<group>"; };
@@ -191,6 +188,10 @@
 		3527BDC61EC9DAB300DE9191 /* magiGlobeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = magiGlobeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3527BDCA1EC9DAB300DE9191 /* magiGlobeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = magiGlobeUITests.swift; sourceTree = "<group>"; };
 		3527BDCC1EC9DAB300DE9191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35F4D9A81ED92ECC00155551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35F4D9AA1ED92ECC00155551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35F4D9AB1ED92ECC00155551 /* magicGlobe-bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "magicGlobe-bridging-Header.h"; sourceTree = "<group>"; };
+		35F4D9B21ED9426B00155551 /* DB_User.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DB_User.xcdatamodel; sourceTree = "<group>"; };
 		35F78A551ECC358200B0DFD8 /* SMMImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMMImagePickerController.swift; sourceTree = "<group>"; };
 		35F78A571ECC358200B0DFD8 /* NSBundle+TZImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+TZImagePicker.h"; sourceTree = "<group>"; };
 		35F78A581ECC358200B0DFD8 /* NSBundle+TZImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+TZImagePicker.m"; sourceTree = "<group>"; };
@@ -219,7 +220,6 @@
 		35F78A6F1ECC358200B0DFD8 /* TZVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZVideoPlayerController.m; sourceTree = "<group>"; };
 		35F78A701ECC358200B0DFD8 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
 		35F78A711ECC358200B0DFD8 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
-		35F78A891ECC364E00B0DFD8 /* magicGlobe-bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "magicGlobe-bridging-Header.h"; sourceTree = "<group>"; };
 		6E7A50DA3776017ABEAE01F8 /* Pods_magiGlobeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_magiGlobeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72E5B8F7F67397A313CAA419 /* Pods_magiGlobeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_magiGlobeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC0A382F047D730F5D70C73 /* Pods-magiGlobeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-magiGlobeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-magiGlobeUITests/Pods-magiGlobeUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -918,12 +918,9 @@
 			isa = PBXGroup;
 			children = (
 				350C67481ECAAF4E0010B8A8 /* Classes */,
+				35F4D9A71ED92ECC00155551 /* Others */,
 				3527BDA71EC9DAB300DE9191 /* AppDelegate.swift */,
-				35F78A891ECC364E00B0DFD8 /* magicGlobe-bridging-Header.h */,
-				3527BDB11EC9DAB300DE9191 /* Assets.xcassets */,
-				3527BDB31EC9DAB300DE9191 /* LaunchScreen.storyboard */,
 				3527BDB61EC9DAB300DE9191 /* Info.plist */,
-				3527BDAE1EC9DAB300DE9191 /* magiGlobe.xcdatamodeld */,
 			);
 			path = magiGlobe;
 			sourceTree = "<group>";
@@ -944,6 +941,17 @@
 				3527BDCC1EC9DAB300DE9191 /* Info.plist */,
 			);
 			path = magiGlobeUITests;
+			sourceTree = "<group>";
+		};
+		35F4D9A71ED92ECC00155551 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				35F4D9AB1ED92ECC00155551 /* magicGlobe-bridging-Header.h */,
+				35F4D9B11ED9426A00155551 /* DB_User.xcdatamodeld */,
+				35F4D9A91ED92ECC00155551 /* LaunchScreen.storyboard */,
+				35F4D9A81ED92ECC00155551 /* Assets.xcassets */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 		35F78A541ECC358200B0DFD8 /* photoPickerView */ = {
@@ -1130,9 +1138,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F4D9AF1ED92ECC00155551 /* LaunchScreen.storyboard in Resources */,
+				35F4D9AE1ED92ECC00155551 /* Assets.xcassets in Resources */,
 				35F78A791ECC358200B0DFD8 /* TZImagePickerController.bundle in Resources */,
-				3527BDB51EC9DAB300DE9191 /* LaunchScreen.storyboard in Resources */,
-				3527BDB21EC9DAB300DE9191 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1165,7 +1173,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		170795A40080FC3FF7A31E95 /* [CP] Embed Pods Frameworks */ = {
@@ -1195,7 +1203,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		983E9B296EF0434B0B4B73EE /* [CP] Copy Pods Resources */ = {
@@ -1225,7 +1233,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		B1A051CCD96BD04D5977830C /* [CP] Embed Pods Frameworks */ = {
@@ -1295,6 +1303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F4D9B31ED9426B00155551 /* DB_User.xcdatamodeld in Sources */,
 				350C67C81ECAAFB40010B8A8 /* CGRect+Man.swift in Sources */,
 				350C67E21ECAAFB40010B8A8 /* UICollectionView+Man.swift in Sources */,
 				350C68061ECAC9300010B8A8 /* ARAHomeViewController.swift in Sources */,
@@ -1359,7 +1368,6 @@
 				35F78A7C1ECC358200B0DFD8 /* TZPhotoPreviewCell.m in Sources */,
 				350C67CF1ECAAFB40010B8A8 /* NSNull+Man.swift in Sources */,
 				350C67CC1ECAAFB40010B8A8 /* Date+Comparable.swift in Sources */,
-				3527BDB01EC9DAB300DE9191 /* magiGlobe.xcdatamodeld in Sources */,
 				35F78A7B1ECC358200B0DFD8 /* TZPhotoPickerController.m in Sources */,
 				350C67E81ECAAFB40010B8A8 /* UINavigationBar+Man.swift in Sources */,
 				35F78A7A1ECC358200B0DFD8 /* TZImagePickerController.m in Sources */,
@@ -1410,10 +1418,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3527BDB31EC9DAB300DE9191 /* LaunchScreen.storyboard */ = {
+		35F4D9A91ED92ECC00155551 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3527BDB41EC9DAB300DE9191 /* Base */,
+				35F4D9AA1ED92ECC00155551 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1467,7 +1475,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/anran/Desktop/AnRanLocationLibrary/magiGlobe/magi/magiGlobe/magiGlobe/magicGlobe-bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "magiGlobe/Others/magicGlobe-bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1511,7 +1519,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/anran/Desktop/AnRanLocationLibrary/magiGlobe/magi/magiGlobe/magiGlobe/magicGlobe-bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "magiGlobe/Others/magicGlobe-bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1652,13 +1660,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		3527BDAE1EC9DAB300DE9191 /* magiGlobe.xcdatamodeld */ = {
+		35F4D9B11ED9426A00155551 /* DB_User.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				3527BDAF1EC9DAB300DE9191 /* magiGlobe.xcdatamodel */,
+				35F4D9B21ED9426B00155551 /* DB_User.xcdatamodel */,
 			);
-			currentVersion = 3527BDAF1EC9DAB300DE9191 /* magiGlobe.xcdatamodel */;
-			path = magiGlobe.xcdatamodeld;
+			currentVersion = 35F4D9B21ED9426B00155551 /* DB_User.xcdatamodel */;
+			path = DB_User.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

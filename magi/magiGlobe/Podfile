@@ -17,6 +17,9 @@ target 'magiGlobe' do
   # Moya 第三方框架封装网络层
   pod 'Moya'
 
+  # swift解析json库, :git => 'https://github.com/IBM-Swift/SwiftyJSON.git'
+  pod 'SwiftyJSON'
+
   #AutoLayout 库
   pod "SnapKit"
 

@@ -72,6 +72,7 @@ class SMMImagePickerController: TZImagePickerController {
                                               _ assets: [Any]?,
                                               _ isSelectOriginalPhoto: Bool)->Void))?) {
         self.didFinishPickingPhotosHandle = handle
+        
     }
 
 }
